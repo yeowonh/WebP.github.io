@@ -1,0 +1,159 @@
+div{
+  display : block;
+  clear:both;
+}
+
+.main-section {
+  position: absolute;
+  display: inline-block;
+  float:left;
+}
+
+.main-aside {
+  position: absolute;
+  display: inline-block;
+  float:right;
+}
+
+img {
+  width: 175px;
+  margin: 10px;
+  border: solid 1px #000000;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "나눔 고딕", "NanumGothic", "맑은 고딕", "Gothic";
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  width: 960px;
+  margin:auto;
+  background-color: #E6E6E6;
+}
+
+
+#page-wrapper{
+  background-color: #ffffff;
+  margin : 40px 0px 40px 0px;
+  padding : 10px 20px 10px 20px;
+  border-radius : 5px;
+  box-shadow : 0px 2px 6px rgba(100, 100, 100, 0.3);
+}
+
+#main-header {
+  padding: 40px 50px 40px 50px;
+}
+
+.master-title {
+  font-size : 30px;
+  color: #181818;
+}
+
+.master-description {
+  font-size: 15px;
+  color: #383838;
+  font-weight: 500;
+}
+
+.main-navigation {
+  border-top : solid 1px #C8C8C8;
+  border-bottom : solid 1px #C8C8C8;
+  margin: 0px 0px 20px 0px;
+  height: 40px;
+}
+
+.outer-menu-item {
+  float:left;
+}
+
+.menu-title {
+  display:block;
+  height: 30px;
+  text-align: center;
+  padding: 5px 20px 5px 20px;
+  color: #000000;
+}
+
+.menu-title:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.menu-title:active {
+  color: #ffff00;
+}
+
+#content {
+  overflow: hidden;
+}
+
+#main-section {
+  float:left;
+  width: 710px;
+}
+
+#main-aside {
+  float:right;
+  width: 200px;
+}
+
+article {
+  padding : 0px 10px 20px 10px;
+  border-bottom: solid 1px #C8C8C8;
+}
+
+.article-title {
+  font-size : 25px;
+  padding: 0px 0px 10px 0px;
+  font-weight: 500;
+}
+
+.article-data {
+  font-size: 13px;
+}
+
+.article-body {
+  font-size: 14px;
+}
+
+
+aside.aside-list {
+  padding: 10px 0px 30px 0px;
+}
+
+aside h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+aside a {
+  margin: 0px 0px 0px 8px;
+  font-size: 13px;
+  color: #6C6C6C;
+}
+
+footer {
+  font-size: 10px;
+  color: #666666;
+  clear:both;
+}
+
+
+nav{
+  display:block;
+  border-top : solid 1px #C8C8C8;
+  border-bottom : solid 1px #C8C8C8;
+  margin: 0px 0px 10px 0px;
+  height: 40px;
+}
